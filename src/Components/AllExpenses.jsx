@@ -41,6 +41,9 @@ function AllExpenses() {
               <th scope="col" className="px-6 py-3">
                 Description
               </th>
+              <th scope="col" className="px-6 py-3">
+                Action
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -54,7 +57,7 @@ function AllExpenses() {
                 </th>
                 <td className="px-6 py-4">{expense.date}</td>
                 <td className="px-6 py-4">{expense.amount}</td>
-                <td className="px-6 py-4">{expense.date}</td>
+                <td className="px-6 py-4">{expense.category}</td>
                 <td className="px-6 py-4">{expense.description}</td>
                 <td className="px-6 py-4">
                   <button
